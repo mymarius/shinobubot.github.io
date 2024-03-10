@@ -7,7 +7,7 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #161b22;
+  background-color: #ec7e1e;
   font-family: monospace;
 }
 
@@ -82,7 +82,7 @@ pre .comment{
 }
 
 .article-containers a{
-  color: yellow;
+  color: black;
 }
 
 .article-containers a:hover{
@@ -261,7 +261,7 @@ pre .comment{
 }
 
 .page-content p a{
-  color: yellow;
+  color: black;
 }
 
 .page-content p a:hover{
