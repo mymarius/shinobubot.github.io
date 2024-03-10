@@ -82,7 +82,7 @@ pre .comment{
 }
 
 .article-containers a{
-  color: black;
+  color: yellow;
 }
 
 .article-containers a:hover{
@@ -261,7 +261,7 @@ pre .comment{
 }
 
 .page-content p a{
-  color: black;
+  color: yellow;
 }
 
 .page-content p a:hover{
