@@ -51,13 +51,13 @@ body {
   margin: auto;
   min-width: 400px;
   text-align: left;
-  font-family: 'Fantasy';
+  font-family: 'Work Sans';
   vertical-align: center;
 }
 
 .main-content-children h1{
   text-align: left;
-  font-family: 'Fantasy';
+  font-family: 'Work Sans';
   font-size: 60px;
   margin: 0;
 }
@@ -219,7 +219,7 @@ body {
 }
 
 .link-container h1{
-  font-family: 'Fantasy';
+  font-family: 'Work Sans';
   margin-top: 0;
   font-size: 20px;
 }
@@ -234,7 +234,7 @@ body {
   padding: 8px;
   background-color: orange;
   border-radius: 10px;
-  font-family: 'Fantasy';
+  font-family: 'Work Sans';
   text-align: center;
   font-size: 12px
 }
