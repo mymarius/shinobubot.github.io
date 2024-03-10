@@ -41,7 +41,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: yellow;
   outline: 1px solid slategrey;
 }
 
