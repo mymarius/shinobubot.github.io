@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   background: yellow;
   overflow: hidden;
-  box-shadow: 20px black;
+  box-shadow: 20px yellow;
   transition: transform .5s ease;
 }
 
