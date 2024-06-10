@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="xuodrELW57jEf1tifHPM0oGZCDlIPWTaid0IvKY0cCM" />
+  <meta charset="utf-8" />
+  <meta name="description" content="A customizable music player" />
+  <meta name="keywords"
+    content="Shinobu,spotify,youtube,songs,playlist,music,desktop,application,player,music player,musicplayer,open,source,opensource,custom,customizable,discord,discordbot,discordmusic" />
+  <meta name="author" content="L RMN" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://i.pinimg.com/originals/5a/b2/4f/5ab24f48396440e8a1d8c6e4e009b700.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://media.discordapp.net/attachments/1184960835974606920/1248360155611926528/shino.jpg?ex=6666ad3e&is=66655bbe&hm=03a05ebd062a83ba9647d18172fcb37d4976de10cf3b739baa043849241ebd33&=&format=webp&width=449&height=449" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://i.pinimg.com/originals/5a/b2/4f/5ab24f48396440e8a1d8c6e4e009b700.jpg" />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+
+  <meta property="og:title" content="Shinobu" />
+  <meta property="og:description" content="A customizable music discord bot" />
+  <meta property="og:site_name" content="Shinobu" />
+  <meta property="og:url" content=" https://shinobubot.xyz/" />
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/1184960835974606920/1249353331998986271/shinobu.png?ex=6666fe76&is=6665acf6&hm=e7d0a56ce1e949c26dc7a843e16f68735937843b5bf749c85bee6eb080cdb2b1&" />
+  <meta property="og:image:secure_url" content="https://cdn.discordapp.com/attachments/1184960835974606920/1249353331998986271/shinobu.png?ex=6666fe76&is=6665acf6&hm=e7d0a56ce1e949c26dc7a843e16f68735937843b5bf749c85bee6eb080cdb2b1&" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1440" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:image:alt" content="Shinobu logo" />
+  <title>Shinobu</title>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Moo",
+      "keywords": "moo,music,discord,bot,discordbot",
+      "url": "http://shinobubot.xyz/",
+      "logo": "https://cdn.discordapp.com/attachments/1184960835974606920/1249353331998986271/shinobu.png?ex=6666fe76&is=6665acf6&hm=e7d0a56ce1e949c26dc7a843e16f68735937843b5bf749c85bee6eb080cdb2b1&"
+    }
+  </script>
+
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script checks to see if a redirect is present in the query string,
+    // converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
+
+  <script src="/assets/js/index.js" type="module"></script>
+</head>
+
+<body class="main" id="body">
+  <nav class="nav__bar">
+    <a href="#">
+      <span class="title__logo">
+        <span class="logo">
+          <img loading="lazy" src="https://cdn.discordapp.com/attachments/1184960835974606920/1249353331998986271/shinobu.png?ex=6666fe76&is=6665acf6&hm=e7d0a56ce1e949c26dc7a843e16f68735937843b5bf749c85bee6eb080cdb2b1&" title="Shinobu" alt="shinobu logo" class="logo__img" />
+        </span>
+      </span>
+    </a>
+    <div class="navbar__buttons">
+      <button class="navigation__buttons"><a href="#">Dashboard</a></button>
+      <button class="navigation__buttons">
+        <a href="#why-use-moo" class="nav-link">Why use Shinobu?</a>
+      </button>
+      <button class="navigation__buttons">
+        <a href="#our-bots" class="nav-link">Our bots</a>
+      </button>
+      <button id="invite" class="navigation__buttons">
+        <a
+          href="https://canary.discord.com/oauth2/authorize?client_id=1031201130803368066">Invite</a>
+      </button>
+      
+    </div>
+  </nav>
+  <header class="heading__page">
+    <span id="heading__info__text__1" class="info__text__1">A Discord music bot that's easy to set up and run
+      yourself</span>
+    <span class="title__line">Shinobu a discord bot music <br />
+      for the community</span>
+    <div class="circle__div__container">
+      <div class="music__person__img__container">
+        <img loading="lazy" id="music__person__img" loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249322418896371763/sari_.png?ex=6666e1ab&is=6665902b&hm=3702da50e52e941ed81c5df972df23fd57126138a9f24aa15a0487c99bca88fe&=&format=webp&quality=lossless&width=398&height=473" alt="" />
+      </div>
+      <div id="circle__div__1" class="circle__div">
+        <div id="circle__div__2" class="circle__div"></div>
+      </div>
+      <div id="circle__div__3" class="circle__div">
+        <audio id="music" src="" type="audio/mpeg" volume="0.2"></audio>
+        <div class="playbutton__container">
+          <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249324749461524531/sari_kare.png?ex=6666e3d7&is=66659257&hm=cc3e1f5bb1af92a6dea981a6e4110ad696b0dff871b25660ba8238c4ba6d192f&=&format=webp&quality=lossless&width=123&height=120" title="Play" alt="" class="play__button__img"
+            id="playButton" />
+          <img loading="lazy" src="/assets/img/playbutton.svg" title="Play" alt="" class="play__button__icon"
+            id="playButtonIcon" />
+        </div>
+      </div>
+    </div>
+    <button id="invite" class="navigation__buttons">
+      <a href="https://top.gg/bot/1031201130803368066/vote">Vote me on Top.gg</a>
+    </button>
+
+  </header>
+  <section id="why-use-moo" class="moosync__usage">
+    <p id="usage__section__heading" class="moosync__section__heading">
+      Why use Shinobu
+    </p>
+    <div class="usage__icons__text">
+      <span class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249366057097887866/sari5.png?ex=66670a50&is=6665b8d0&hm=6f62ef124ae036ba7fc99e2427c0b1c830325238f170b4f8e5fa100b356b09a2&=&format=webp&quality=lossless&width=409&height=409" alt="" class="usage__icons" />
+        <span class="info__text__4">Enjoyment with 24/7 playback feature.</span>
+      </span>
+      <span class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249366056515141646/sari3.png?ex=66670a4f&is=6665b8cf&hm=45f992d0485444a9d2eba466a3c551be429c23e7bfda50d8a3315d03bcf116e2&=&format=webp&quality=lossless&width=102&height=102" alt="" class="usage__icons" />
+        <span class="info__text__4">Requesting songs using a simple prefix "Shinobu" no slash commands.</span>
+      </span>
+    </div>
+    <div id="usage__icons__text__mid" class="usage__icons__text">
+      <span id="usage__mid" class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249325662041538631/sari1.png?ex=6666e4b1&is=66659331&hm=f51fb6974e5b08d0a5b876afb5d51054ba4bf323bf045cc644708200c24e3ed0&=&format=webp&quality=lossless&width=102&height=102" alt="" class="usage__icons" />
+        <span class="info__text__4">99.99% Uptime You don't have to worry about downtimes, Shinobu music is online.</span>
+      </span>
+      <span class="usg_mid">
+        <img loading="lazy" src="https://cdn.discordapp.com/attachments/1184960835974606920/1249794264683122809/shino.jpg?ex=6668991c&is=6667479c&hm=2bfc25ecdfb88f40122052e6989f2cc752cd7872942b0b4aa1c17a910740e1e9&" alt="" id="usage__mid__img" />
+      </span>
+      <span id="usage__mid" class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249366056066089013/sari2.png?ex=66670a4f&is=6665b8cf&hm=96ac661c9e3d6e1df5562c121d21a869cfa47ecf44c9e965be72839e7327bb27&=&format=webp&quality=lossless&width=102&height=102" alt="" class="usage__icons" />
+        <span class="info__text__4">High quality music from many sources including Youtube, Spotify & Soundcloud,
+          etc.</span>
+      </span>
+    </div>
+    <div class="usage__icons__text">
+      <span class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249366056858943568/sari6.png?ex=66670a50&is=6665b8d0&hm=c40c20caf58209dc00189359d3ece36e7eda5f8d6b451de5d7a76499328989ea&=&format=webp&quality=lossless&width=409&height=409" alt="" class="usage__icons" />
+        <span class="info__text__4">No need to pay for everything, the main features are free and will stay free
+          forever!</span>
+      </span>
+      <span class="usage">
+        <img loading="lazy" src="https://media.discordapp.net/attachments/1094620290727809137/1249366056284459039/sari4.png?ex=66670a4f&is=6665b8cf&hm=5cdbb2541ad5a57179c90c67193d77930fd00a135aa6a867473b40ed251c6881&=&format=webp&quality=lossless&width=139&height=102" alt="" class="usage__icons" />
+        <span class="info__text__4">Add Spotify and Youtube tracks and playlists by URLs</span>
+      </span>
+    </div>
+  </section>
+  <section id="our-bots" class="moosync__numbers">
+    <p class="moosync__section__heading">Invite Other Bots</p>
+    <div class="bot__container">
+      <div class="bot__box">  
+        <a
+          href="https://canary.discord.com/oauth2/authorize?client_id=1031201130803368066">
+          <img src="https://media.discordapp.net/attachments/1184960835974606920/1249327480515461140/5ab24f48396440e8a1d8c6e4e009b700.jpg?ex=6666e662&is=666594e2&hm=0d7755038fc6ca31db4c40ea3e0fda5908cf98c5d35ed3dceec93bca1f4f93c1&=&format=webp&width=451&height=451" alt="Shinobu">
+        </a>
+        <p class="bot__description">Shinobu</p>
+      </div>
+      <div class="bot__box">
+        <a
+          href="https://canary.discord.com/oauth2/authorize?client_id=663743101650731018">
+          <img src="https://cdn.discordapp.com/avatars/663743101650731018/97552064d8dbe38c20188cee752e8de9.webp" alt="Gift Wizard🎉">
+        </a>
+        <p class="bot__description">Gift Wizard🎉</p>
+      </div>
+    </div>
+    <div id="moosync__numbers__button" class="buttons">
+      <a href="https://discord.gg/nqCTKcNAVp" target="_blank" rel="noopener noreferrer">
+        <button title="Join us on Discord" class="link__buttons">
+          <img loading="lazy" src="/assets/img/discordLogo.svg" alt="" class="icons" id="discord__icon" />Join Discord
+        </button>
+      </a>
+      <a href="https://www.patreon.com/join/shinobubots" target="_blank" rel="noopener noreferrer">
+        <button title="Contribute to Shinobu" class="link__buttons">
+          <img loading="lazy" src="/assets/img/patreonblack.png" alt="" class="icons" id="discord__icon" />Patreon
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <!-- =====================footer===================== -->
+  <footer class="footer__section">
+    <div class="footer__container">
+      <div id="left__footer__content" class="footer__content">
+        <a href="#">
+          <span class="title__logo">
+            <img loading="lazy" src="https://media.discordapp.net/attachments/1184960835974606920/1248360155611926528/shino.jpg?ex=6666ad3e&is=66655bbe&hm=03a05ebd062a83ba9647d18172fcb37d4976de10cf3b739baa043849241ebd33&=&format=webp&width=449&height=449" title="Shinobu" alt="" id="footer__logo"
+              class="logo__img" />
+            <span class="title">Shinobu</span>
+          </span>
+        </a>
+        <p id="footer__info__text__2" class="info__text__2">
+          A DISCORD MUSIC BOT <br /> THAT'S EASY TO SET UP AND RUN YOURSELF
+        </p>
+      </div>
+      <div id="right__footer__content__wrapper">
+        <div id="right__footer__content" class="footer__content">
+          <div class="general__info__links">
+            <div class="footer__general">
+              <span id="footer__info__text__heading" class="info__text__1">general</span>
+              <ul class="general__info__link__list">
+                <li class="list__items">
+                  <a class="list-items-link" href="privacypolicy.html" rel="noopener noreferrer">Privacy Policy</a>
+                </li>
+                <li class="list__items">
+                  <a class="list-items-link" href="termsofservices.html" rel="noopener noreferrer">Terms of Services</a>
+                </li>
+                <li class="list__items">
+                  <a class="list-items-link" href="pricing.html" rel="noopener noreferrer">Pricing</a>
+                </li>
+
+              </ul>
+            </div>
+            <div id="right__footer__general" class="footer__general">
+              <span id="footer__info__text__heading" class="info__text__1">community</span>
+              <ul class="general__info__link__list">
+                <li class="list__items">
+                  <a class="list-items-link" href="https://github.com/lrmn7" target="_blank"
+                    rel="noopener noreferrer">GitHub</a>
+                </li>
+                <li class="list__items">
+                  <a class="list-items-link" href="https://discord.gg/WFfjrQxnfH" target="_blank"
+                    rel="noopener noreferrer">Join us on Discord</a>
+                </li>
+                <li class="list__items">
+                  <a class="list-items-link" href="https://top.gg/user/361407102650109952" target="_blank"
+                    rel="noopener noreferrer">Top.gg</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span id="copyright__text">Made with ♥ in Shinobu Team<br>© 2022 2024 Shinobu. All rights reserved.</span>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
